@@ -17,7 +17,7 @@ export default class AwesomeProject extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Hey look this is my first iOS app!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
@@ -36,15 +36,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#4286f4',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 35,
     textAlign: 'center',
     margin: 10,
   },
   instructions: {
     textAlign: 'center',
+    fontSize: 20,
     color: '#333333',
     marginBottom: 5,
   },
